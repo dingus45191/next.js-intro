@@ -5,6 +5,10 @@
     "spellright.documentTypes": [
         "markdown",
         "latex",
-        "plaintext"
+        "plaintext",
+        "javascript"
+    ],
+    "cSpell.enableFiletypes": [
+        "!javascript"
     ]
 }
