@@ -1,0 +1,1 @@
+{"ast":null,"code":"const notes = new Array(15).fill(1).map((_, i) => ({\n  id: Date.now() + i,\n  title: `Note ${i}`\n}));\nconsole.log(notes);\nmodule.exports = notes;","map":null,"metadata":{},"sourceType":"script"}

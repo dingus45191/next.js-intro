@@ -1,0 +1,1 @@
+{"ast":null,"code":"import nc from \"next-connect\";\nconst handler = nc().get((req, res) => {\n  res.json({\n    message: \"ok\"\n  });\n}).post((req, res) => {\n  res.json({\n    message: \"posted\"\n  });\n});\nexport default handler;","map":null,"metadata":{},"sourceType":"module"}
